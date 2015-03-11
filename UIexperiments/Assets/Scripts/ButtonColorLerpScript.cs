@@ -36,7 +36,7 @@ public class ButtonColorLerpScript : MonoBehaviour {
 		
 		//actualColor=lerpedColor;
 	
-		this.gameObject.renderer.material.color = lerpedColor;
+		this.gameObject.GetComponent<Renderer>().material.color = lerpedColor;
 	}
 }
 
