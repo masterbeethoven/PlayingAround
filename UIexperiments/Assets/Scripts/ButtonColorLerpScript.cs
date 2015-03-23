@@ -26,17 +26,20 @@ public class ButtonColorLerpScript : MonoBehaviour {
 	void Update () {
 
 		//actualColor = Color.Lerp(startColor, endColor, colorLerp);
-		lerpedColor = Color.Lerp(startColor, endColor, Time.time)*lerpSpeed;
+		//lerpedColor = Color.Lerp(startColor, endColor, Time.time)*lerpSpeed;
 
-		if (lerpedColor==endColor){
+		lerpedColor = Color.Lerp(startColor, endColor, Mathf.Sin(Time.time * Mathf.Deg2Rad * lerpSpeed*100));
+
+		/*if (lerpedColor==endColor){
 			lerpedColor = Color.Lerp(startColor, endColor, Time.time)*lerpSpeed;
 				
 		}
 
 		
-		//actualColor=lerpedColor;
+		//actualColor=lerpedColor;*/
 	
 		this.gameObject.GetComponent<Renderer>().material.color = lerpedColor;
+		//lerpedColor = Color.Lerp(startColor, endColor, Mathf.Sin(Time.time * Mathf.Degree2Rad * lerpSpeed));
 	}
 }
 
