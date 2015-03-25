@@ -6,6 +6,8 @@ public class ButtonImageChange : MonoBehaviour {
 
 	public Sprite earthPNG;
 	public Sprite checkMark;
+	public Panel panelOverlay;
+
 
 
 	//SpriteRenderer spriteRenderer;
@@ -30,6 +32,8 @@ public class ButtonImageChange : MonoBehaviour {
 		}
 		else {
 			img.sprite = checkMark;
+
+
 		}
 	}
 	
