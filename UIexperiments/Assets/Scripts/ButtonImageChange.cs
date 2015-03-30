@@ -6,7 +6,7 @@ public class ButtonImageChange : MonoBehaviour {
 
 	public Sprite earthPNG;
 	public Sprite checkMark;
-	public Panel panelOverlay;
+	//public Panel panelOverlay;
 
 
 
