@@ -64,6 +64,8 @@
      <Compile Include="Assets\Scripts\GrowScript.cs" />
      <Compile Include="Assets\Scripts\PressTest.cs" />
      <Compile Include="Assets\Scripts\SlideInScript.cs" />
+     <Compile Include="Assets\Scripts\SoundTestFootstepsScript.cs" />
+     <None Include="Assets\StreamingAssets\FMOD_bank_list.txt" />
      <None Include="Assets\Fabric\Revision.txt" />
      <None Include="Assets\Fabric\Readme.txt" />
      <None Include="Assets\Fabric\License.txt" />

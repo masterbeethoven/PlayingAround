@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Editor\FMODEventEmitterInspector.cs" />
      <Compile Include="Assets\Editor\FMODEventInspector.cs" />
+     <None Include="Assets\StreamingAssets\FMOD_bank_list.txt" />
      <None Include="Assets\Fabric\Revision.txt" />
      <None Include="Assets\Fabric\Readme.txt" />
      <None Include="Assets\Fabric\License.txt" />
